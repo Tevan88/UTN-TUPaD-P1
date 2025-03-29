@@ -5,5 +5,7 @@
 
 #Definimos variable nombre
 nombre = input("Ingrese su nombre: ")
+#Agregamos y definimos la variable apellido
+apellido = input("Ingrese su apellido")
 #Mostramos mensaje por pantalla
-print(f"Hola {nombre}!")
+print(f"Hola {nombre} {apellido}!")
