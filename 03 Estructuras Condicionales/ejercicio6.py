@@ -37,7 +37,7 @@ elif (media < mediana) and (mediana < moda):
 elif (media == mediana == moda):
     print("Sin sesgo")
 else:
-    pass
+    print("No se puede determinar si esta distribución tiene sesgo o no.")
 
 
 
