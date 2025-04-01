@@ -10,4 +10,4 @@ elif maymin == "2":
 elif maymin == "3":
     print(nombre.title())
 else:
-    pass
+    print("Por favor elija la opción 1, 2 ó 3")
