@@ -1,4 +1,4 @@
 x = 1
 
-for x in range(5):
-    print(x + 1)
+for x in range(1,11):
+    print(x, "Debo practicar ciclos FOR")
