@@ -2,16 +2,15 @@
 #media de esos valores. (Nota: puedes probar el programa con una cantidad menor, pero debe
 #poder procesar 100 números cambiando solo un valor).
 
-#Importamos la funcion mean (para calcular la media) de statistics
-from statistics import mean
 #Definimos la variable valor_final para utilizar como, justamente, valor final en el ciclo for
 #que luego se puede modificar el valor de la variable por 101 y así lograr el objetivo del programa.
-valor_final = 4
-num1 = 0
+valor_final = 10
+suma = 0 #Esta variable nos va a servir de acumuladora luego en el bucle for
+#Definimos el bucle for unilizando como valor final la variable definida previamente
+for cont in range(valor_final):
+    num1 = float(input("Ingrese un número entero:")) #Le pedimos numeros al usuario y los almacenamos en la variable num
+    suma += num1
 
-for cont in range(1,valor_final):
-    num2 = float(input("Ingrese un número entero:"))
-    num1 += num2
-
-media = mean(num1)
-print("La media de los números ingresados es:", media)
+media = suma / valor_final #Definimos la variable media por la división de la variable suma dividido la cantidad de intentos 
+                           #realizados por el usuario. 
+print("La media de los números ingresados es:", media) #Mostramos el mensaje por pantalla.
