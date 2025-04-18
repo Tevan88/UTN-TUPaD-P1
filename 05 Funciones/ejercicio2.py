@@ -5,11 +5,11 @@
 
 
 def saludar_usuario(nombre):
-    return nombre
+    return f"Hola {nombre}!"
 
 #Programa principal.
 
 #Definimos la variable nombre con lo que ingrese el usuario como su nombre
 nombre = input("Escriba su nombre: ")
-#Mostramos por pantalla 
-print(saludar_usuario(f"Hola {nombre}!"))
+saludo = saludar_usuario(nombre)
+print(saludo)
