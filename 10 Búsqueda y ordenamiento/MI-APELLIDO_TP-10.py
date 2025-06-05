@@ -1,11 +1,12 @@
-import random
-import time
+#importamos las librerías necesarias 
+import random #importamos la librería random para generar números aleatorios
+import time #importamos la librería time para medir el tiempo de ejecución
 
 
-lista = random.sample(range(1, 10000), 9900)# Genera una lista de 99000 números aleatorios entre 1 y 100000
+lista = random.sample(range(1, 10000), 9990)# Generamos una lista de 9900 números aleatorios entre 1 y 10000
 
 
-#metodo de ordenamiento quicksort
+#Método de ordenamiento quicksort
 
 def quicksort(lista): #definición de la función quicksort
     if len(lista) <= 1: #caso base: si la lista tiene 0 o 1 elementos, ya está ordenada
@@ -31,6 +32,7 @@ def burbuja(lista):# definición de la función burbuja
 
 
 # Ejemplo de uso quicksort
+#Se mide el tiempo de ejecución del método quicksort
 inicio_tiempo = time.process_time()# inicia el conteo del tiempo de ejecución
 lista_ordenada = quicksort(lista)# ordena la lista usando el método quicksort
 fin_tiempo = time.process_time()# finaliza el conteo del tiempo de ejecución
