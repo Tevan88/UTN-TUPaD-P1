@@ -48,3 +48,4 @@ lista_ordenada_burbuja = burbuja(lista)# ordena la lista usando el método burbu
 fin_tiempo_burbuja = time.process_time()# finaliza el conteo del tiempo de ejecución
 # mostramos por pantalla el tiempo de ejecución del método burbuja
 print(f"tiempo de ordenamiento burbuja: {fin_tiempo_burbuja - inicio_tiempo_burbuja} segundos")
+
